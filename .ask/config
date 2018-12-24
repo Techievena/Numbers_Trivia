@@ -1,0 +1,52 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.6329eb02-d6fe-4e9c-825b-e8cb5f70daee",
+      "was_cloned": true,
+      "resources": {
+        "manifest": {
+          "eTag": "7d383ab4a56b4ede806da8515700de16"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "023cdef7539867cfc72d3f5bb445d3a1"
+          },
+          "en-CA": {
+            "eTag": "023cdef7539867cfc72d3f5bb445d3a1"
+          },
+          "en-IN": {
+            "eTag": "023cdef7539867cfc72d3f5bb445d3a1"
+          },
+          "en-AU": {
+            "eTag": "023cdef7539867cfc72d3f5bb445d3a1"
+          },
+          "en-GB": {
+            "eTag": "023cdef7539867cfc72d3f5bb445d3a1"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:706764152185:function:Numbers_Trivia",
+            "awsRegion": "us-east-1",
+            "functionName": "Numbers_Trivia",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "56c77a7d-c4bf-45fe-b60e-65362e8c8267"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:706764152185:function:Numbers_Trivia"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

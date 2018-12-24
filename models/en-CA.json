@@ -1,0 +1,196 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "numbers trivia",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "DateTriviaIntent",
+          "slots": [
+            {
+              "name": "date_slot",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "random_slot",
+              "type": "Random"
+            }
+          ],
+          "samples": [
+            "give me a fact about {random_slot} date",
+            "give me a fact about {date_slot}",
+            "tell me fact about {random_slot} date",
+            "tell me a fact about {date_slot}",
+            "what is special about {date_slot}",
+            "trivia about {random_slot} date",
+            "special about {random_slot} date",
+            "fact about {random_slot} date",
+            "trivia about {date_slot}",
+            "special about {date_slot}",
+            "fact about {date_slot}",
+            "what is the importance of the date {date_slot}",
+            "what is the importance of {date_slot}",
+            "what is the significance of {date_slot}"
+          ]
+        },
+        {
+          "name": "NumberTriviaIntent",
+          "slots": [
+            {
+              "name": "random_slot",
+              "type": "Random"
+            },
+            {
+              "name": "number_slot",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "give me a fact about {random_slot} number",
+            "give me a fact about {number_slot}",
+            "tell me fact about {random_slot} number",
+            "tell me a fact about {number_slot}",
+            "what is special about {number_slot}",
+            "trivia about {random_slot} number",
+            "special about {random_slot} number",
+            "fact about {random_slot} number",
+            "trivia about {number_slot}",
+            "special about {number_slot}",
+            "fact about {number_slot}",
+            "what is the importance of the number {number_slot}",
+            "what is the importance of {number_slot}",
+            "what is the significance of {number_slot}"
+          ]
+        },
+        {
+          "name": "MathTriviaIntent",
+          "slots": [
+            {
+              "name": "random_slot",
+              "type": "Random"
+            },
+            {
+              "name": "number_slot",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "give me a fact about {random_slot} number in maths",
+            "give me a fact about {number_slot} in maths",
+            "tell me fact about {random_slot} number in world of mathematics",
+            "tell me a fact about {number_slot} related to mathematics",
+            "what is special about {number_slot} in mathematics",
+            "trivia about {random_slot} number in mathematics",
+            "special about {random_slot} number in mathematics",
+            "fact about {random_slot} number in mathematics",
+            "trivia about {number_slot} in mathematics",
+            "special about {number_slot} in mathematics",
+            "mathematical fact about {number_slot}",
+            "what is the importance of the number {number_slot} in mathematics",
+            "what is the importance of {number_slot} in mathematics",
+            "what is the significance of {number_slot} in mathematics",
+            "what is the importance of {number_slot} in field of maths",
+            "what is the significance of {number_slot} in world of maths"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "casual"
+              }
+            },
+            {
+              "name": {
+                "value": "arbit"
+              }
+            },
+            {
+              "name": {
+                "value": "arbitrary"
+              }
+            },
+            {
+              "name": {
+                "value": "other"
+              }
+            },
+            {
+              "name": {
+                "value": "another"
+              }
+            },
+            {
+              "name": {
+                "value": "any"
+              }
+            },
+            {
+              "name": {
+                "value": "random"
+              }
+            }
+          ],
+          "name": "Random"
+        }
+      ]
+    }
+  }
+}

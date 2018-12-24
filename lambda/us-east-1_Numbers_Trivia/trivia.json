@@ -1,0 +1,364 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-viewport-profiles",
+            "version": "1.0.0"
+        },
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [
+        {
+            "description": "Stock color for the light theme",
+            "colors": {
+                "colorTextPrimary": "#151920"
+            }
+        },
+        {
+            "description": "Stock color for the dark theme",
+            "when": "${viewport.theme == 'dark'}",
+            "colors": {
+                "colorTextPrimary": "#f0f1ef"
+            }
+        },
+        {
+            "description": "Standard font sizes",
+            "dimensions": {
+                "textSizeBody": 48,
+                "textSizePrimary": 27,
+                "textSizeSecondary": 23,
+                "textSizeSecondaryHint": 25
+            }
+        },
+        {
+            "description": "Common spacing values",
+            "dimensions": {
+                "spacingThin": 6,
+                "spacingSmall": 12,
+                "spacingMedium": 24,
+                "spacingLarge": 48,
+                "spacingExtraLarge": 72
+            }
+        },
+        {
+            "description": "Common margins and padding",
+            "dimensions": {
+                "marginTop": 40,
+                "marginLeft": 60,
+                "marginRight": 60,
+                "marginBottom": 40
+            }
+        }
+    ],
+    "styles": {
+        "textStyleBase": {
+            "description": "Base font description; set color and core font family",
+            "values": [
+                {
+                    "color": "@colorTextPrimary",
+                    "fontFamily": "Amazon Ember"
+                }
+            ]
+        },
+        "textStyleBase0": {
+            "description": "Thin version of basic font",
+            "extend": "textStyleBase",
+            "values": {
+                "fontWeight": "100"
+            }
+        },
+        "textStyleBase1": {
+            "description": "Light version of basic font",
+            "extend": "textStyleBase",
+            "values": {
+                "fontWeight": "300"
+            }
+        },
+        "mixinBody": {
+            "values": {
+                "fontSize": "@textSizeBody"
+            }
+        },
+        "mixinPrimary": {
+            "values": {
+                "fontSize": "@textSizePrimary"
+            }
+        },
+        "mixinSecondary": {
+            "values": {
+                "fontSize": "@textSizeSecondary"
+            }
+        },
+        "textStylePrimary": {
+            "extend": [
+                "textStyleBase1",
+                "mixinPrimary"
+            ]
+        },
+        "textStyleSecondary": {
+            "extend": [
+                "textStyleBase0",
+                "mixinSecondary"
+            ]
+        },
+        "textStyleBody": {
+            "extend": [
+                "textStyleBase1",
+                "mixinBody"
+            ]
+        },
+        "textStyleSecondaryHint": {
+            "values": {
+                "fontFamily": "Bookerly",
+                "fontStyle": "italic",
+                "fontSize": "@textSizeSecondaryHint",
+                "color": "@colorTextPrimary"
+            }
+        }
+    },
+    "layouts": {
+        "Page1": {
+            "parameters": [
+                "hint",
+                "logo",
+                "background",
+                "image"
+            ],
+            "items": [
+                {
+                    "when": "${viewport.shape == 'round'}",
+                    "type": "Container",
+                    "direction": "column",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "${background}",
+                            "scale": "best-fill",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "position": "absolute",
+                            "scrim": true
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "Numbers Trivia",
+                            "headerAttributionImage": "${logo}"
+                        },
+                        {
+                            "type": "Container",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": 200,
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "source": "${image}",
+                                    "scale": "best-fit",
+                                    "width": "100vw",
+                                    "height": "100vh",
+                                    "align": "center"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "${background}",
+                            "scale": "best-fill",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "position": "absolute"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "Numbers Trivia",
+                            "headerAttributionImage": "${logo}"
+                        },
+                        {
+                            "type": "Container",
+                            "direction": "row",
+                            "justifyContent": "center",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "width": "50vw",
+                                    "height": "50vh",
+                                    "source": "${image}",
+                                    "scale": "best-fit",
+                                    "align": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "AlexaFooter",
+                            "footerHint": "${hint}"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Page2": {
+            "parameters": [
+                "hint",
+                "logo",
+                "background",
+                "title",
+                "triviaText",
+                "triviaSpeech"
+            ],
+            "items": [
+                {
+                    "when": "${viewport.shape == 'round'}",
+                    "type": "Container",
+                    "direction": "column",
+                    "paddingLeft": 50,
+                    "paddingRight": 30,
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "${background}",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "${title}",
+                            "headerAttributionImage": "${logo}"
+                        },
+                        {
+                            "type": "ScrollView",
+                            "item": [
+                                {
+                                    "type": "Text",
+                                    "id": "karaokeComponentId",
+                                    "text": "${triviaText}",
+                                    "speech": "${triviaSpeech}",
+                                    "size": "@textSizeBody",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "${background}",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "${title}",
+                            "headerAttributionImage": "${logo}"
+                        },
+                        {
+                            "type": "ScrollView",
+                            "height": "60vh",
+                            "width": "100vw",
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": "@marginBottom",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "id": "karaokeComponentId",
+                                    "text": "${triviaText}",
+                                    "speech": "${triviaSpeech}",
+                                    "size": "@textSizeBody",
+                                    "spacing": "@spacingSmall",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "AlexaFooter",
+                            "footerHint": "${hint}"
+                        }
+                    ]
+                }
+            ]
+        },
+        "MyPager": {
+            "parameters": [
+                "title",
+                "hint",
+                "logo",
+                "triviaText",
+                "triviaSpeech",
+                "image",
+                "background"
+            ],
+            "items": [
+                {
+                    "type": "Pager",
+                    "id": "pagerComponentId",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Page1",
+                            "hint": "${hint}",
+                            "logo": "${logo}",
+                            "background": "${background}",
+                            "image": "${image}"
+                        },
+                        {
+                            "type": "Page2",
+                            "hint": "${hint}",
+                            "logo": "${logo}",
+                            "background": "${background}",
+                            "title": "${title}",
+                            "triviaText": "${triviaText}",
+                            "triviaSpeech": "${triviaSpeech}"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "MyPager",
+                "title": "${payload.triviaTemplateData.title}",
+                "hint": "${payload.triviaTemplateData.hintText}",
+                "logo": "${payload.triviaTemplateData.logoUrl}",
+                "triviaText": "${payload.triviaTemplateData.properties.triviaText}",
+                "triviaSpeech": "${payload.triviaTemplateData.properties.triviaSpeech}",
+                "image": "${payload.triviaTemplateData.image.sources[0].url}",
+                "background": "${payload.triviaTemplateData.backgroundImage.sources[0].url}"
+            }
+        ]
+    }
+}
