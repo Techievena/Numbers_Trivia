@@ -5,7 +5,7 @@
       "was_cloned": true,
       "resources": {
         "manifest": {
-          "eTag": "7d383ab4a56b4ede806da8515700de16"
+          "eTag": "4391a7b94f3f60e80c587d9fc2ab756d"
         },
         "interactionModel": {
           "en-US": {
@@ -32,7 +32,7 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "56c77a7d-c4bf-45fe-b60e-65362e8c8267"
+            "revisionId": "fcf68bb3-2f43-4ad2-b885-431837af8c49"
           }
         ]
       },

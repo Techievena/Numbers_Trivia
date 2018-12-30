@@ -1,128 +1,5 @@
 {
   "manifest": {
-    "publishingInformation": {
-      "locales": {
-        "en-US": {
-          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
-          "examplePhrases": [
-            "Alexa, open Numbers Trivia",
-            "Give me a fact about today",
-            "Tell me a fact about a random number"
-          ],
-          "keywords": [
-            "numbersapi",
-            "numbers",
-            "kids",
-            "games",
-            "trivia",
-            "fact",
-            "smart",
-            "multimodal",
-            "visual"
-          ],
-          "name": "Numbers Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/196f/0f14fbdef15f487ab224ff296196ca07/APP_ICON?versionId=XENEuc8n22Zl1gORTL2uFGkU8Qk.XU6n&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=MYhju5OTz94MzX%2FccEMY45PGiK4%3D",
-          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/823a/f7e9c5343e2c457c98db6183f2b096e5/APP_ICON_LARGE?versionId=hNYjEjNNydmiwD0cjQ72xGlbqkpjkLB6&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=gZIEAqxhQyNCowKY%2FFr08Q6fHSk%3D"
-        },
-        "en-CA": {
-          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
-          "examplePhrases": [
-            "Alexa, open Numbers Trivia",
-            "Give me a fact about today",
-            "Tell me a fact about a random number"
-          ],
-          "keywords": [
-            "numbersapi",
-            "numbers",
-            "kids",
-            "games",
-            "trivia",
-            "fact",
-            "smart",
-            "multimodal",
-            "visual"
-          ],
-          "name": "Numbers Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/22a8/cb08aebbf7624ceb880c9d12f18ef5f3/APP_ICON?versionId=VKaOMCIubfpI0DimfNbTS5x2pWOnD6o2&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=am7oZ%2FmeqHFLFySe4f6%2BCX9z450%3D",
-          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6abf/3943e0afd63d4bec9b4da988ad1966cc/APP_ICON_LARGE?versionId=D9Fn.Krj9SHB3QO8kM1d48h08OZYK1Dv&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=RRW1jxM6ZZsg3KQeB07Gd7CH1Cw%3D"
-        },
-        "en-IN": {
-          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
-          "examplePhrases": [
-            "Alexa, open Numbers Trivia",
-            "Give me a fact about today",
-            "Tell me a fact about a random number"
-          ],
-          "keywords": [
-            "numbersapi",
-            "numbers",
-            "kids",
-            "games",
-            "trivia",
-            "fact",
-            "smart",
-            "multimodal",
-            "visual"
-          ],
-          "name": "Numbers Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/bf14/a2336b742fe14d039e4fc31dbe091a8f/APP_ICON?versionId=09cPMPUu_8CocJYWOapsagstmJnKrOnE&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=48WV8m48AEUT1ltbXM7pfLaiW7g%3D",
-          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/38d7/e9243f273eed4d74a1da415b90a31e39/APP_ICON_LARGE?versionId=s3AkbfSRJjmKD7yw24pidb8goNMA6MaP&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=Iap1oWgH5vKrRm3QqKFxtltYl8c%3D"
-        },
-        "en-AU": {
-          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
-          "examplePhrases": [
-            "Alexa, open Numbers Trivia",
-            "Give me a fact about today",
-            "Tell me a fact about a random number"
-          ],
-          "keywords": [
-            "numbersapi",
-            "numbers",
-            "kids",
-            "games",
-            "trivia",
-            "fact",
-            "smart",
-            "multimodal",
-            "visual"
-          ],
-          "name": "Numbers Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9198/36d8f75dd0734599b8b5916375486a24/APP_ICON?versionId=11CsVMk0VejRPICCYiJcPAICEFjPxcbX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=scmFenG0R%2FEYIMNuGVT5BpDVGUM%3D",
-          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/78f0/9741facbbfac449480529254a7d6b864/APP_ICON_LARGE?versionId=SmRtiI4RxIn2M9w3OP6VXI_XkgXWxxS4&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=S6%2FsoT%2FlwjJKN5WlVssUQFbyKvU%3D"
-        },
-        "en-GB": {
-          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
-          "examplePhrases": [
-            "Alexa, open Numbers Trivia",
-            "Give me a fact about today",
-            "Tell me a fact about a random number"
-          ],
-          "keywords": [
-            "numbersapi",
-            "numbers",
-            "kids",
-            "games",
-            "trivia",
-            "fact",
-            "smart",
-            "multimodal",
-            "visual"
-          ],
-          "name": "Numbers Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ff32/89c0c6e9ee234f26b4820e1b297441c3/APP_ICON?versionId=q8DYl1BBEWnOABaBo3_rjRnJREfJfSRS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=x3XXPONyQkyxZt%2BjUNBfizXfmOM%3D",
-          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8ff1/6a3820b075da4524b8882e64c2672bad/APP_ICON_LARGE?versionId=Jvxi0G_MsreybWpIDQnVX9LsBPEcySQd&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1545751444&Signature=IulnEEGK%2FdT34CeLzIsRwHBxW3A%3D"
-        }
-      },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Kids skill must be enabled.",
-      "category": "CHILDRENS_EDUCATION_AND_REFERENCE",
-      "distributionCountries": []
-    },
     "apis": {
       "custom": {
         "endpoint": {
@@ -137,11 +14,137 @@
     },
     "manifestVersion": "1.0",
     "privacyAndCompliance": {
+      "locales": {
+        "en-IN": {}
+      },
       "allowsPurchases": false,
-      "isExportCompliant": true,
-      "containsAds": false,
+      "usesPersonalInfo": false,
       "isChildDirected": true,
-      "usesPersonalInfo": false
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Numbers Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/196f/0f14fbdef15f487ab224ff296196ca07/APP_ICON?versionId=XENEuc8n22Zl1gORTL2uFGkU8Qk.XU6n&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=j1XAOm1HpQbh0ud0J875UX9VWds%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/823a/f7e9c5343e2c457c98db6183f2b096e5/APP_ICON_LARGE?versionId=hNYjEjNNydmiwD0cjQ72xGlbqkpjkLB6&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=6VeZsObymDiA7Ff8MlOiAf%2FuNeU%3D",
+          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
+          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
+          "examplePhrases": [
+            "Alexa, open Numbers Trivia",
+            "Give me a fact about today",
+            "Tell me a fact about a random number"
+          ],
+          "keywords": [
+            "numbersapi",
+            "numbers",
+            "kids",
+            "games",
+            "trivia",
+            "fact",
+            "smart",
+            "multimodal",
+            "visual"
+          ]
+        },
+        "en-CA": {
+          "name": "Numbers Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/22a8/cb08aebbf7624ceb880c9d12f18ef5f3/APP_ICON?versionId=VKaOMCIubfpI0DimfNbTS5x2pWOnD6o2&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=tiOPujKVKFDZEtw%2Fb6S847AfolM%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6abf/3943e0afd63d4bec9b4da988ad1966cc/APP_ICON_LARGE?versionId=D9Fn.Krj9SHB3QO8kM1d48h08OZYK1Dv&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=w1J%2BUhMGalOREmXP4WRF8MA8kEo%3D",
+          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
+          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
+          "examplePhrases": [
+            "Alexa, open Numbers Trivia",
+            "Give me a fact about today",
+            "Tell me a fact about a random number"
+          ],
+          "keywords": [
+            "numbersapi",
+            "numbers",
+            "kids",
+            "games",
+            "trivia",
+            "fact",
+            "smart",
+            "multimodal",
+            "visual"
+          ]
+        },
+        "en-IN": {
+          "name": "Numbers Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/bf14/a2336b742fe14d039e4fc31dbe091a8f/APP_ICON?versionId=09cPMPUu_8CocJYWOapsagstmJnKrOnE&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=OKj%2BQ3WA5g%2BVCQG%2BcEPfJiyu%2BfI%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/38d7/e9243f273eed4d74a1da415b90a31e39/APP_ICON_LARGE?versionId=s3AkbfSRJjmKD7yw24pidb8goNMA6MaP&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=z0mh3Ta%2FlVE%2FKJLfwawu755PzzY%3D",
+          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
+          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
+          "examplePhrases": [
+            "Alexa, open Numbers Trivia",
+            "Give me a fact about today",
+            "Tell me a fact about a random number"
+          ],
+          "keywords": [
+            "numbersapi",
+            "numbers",
+            "kids",
+            "games",
+            "trivia",
+            "fact",
+            "smart",
+            "multimodal",
+            "visual"
+          ]
+        },
+        "en-AU": {
+          "name": "Numbers Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9198/36d8f75dd0734599b8b5916375486a24/APP_ICON?versionId=11CsVMk0VejRPICCYiJcPAICEFjPxcbX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=QW5BLNkWIjpKTv%2Bu19JKYhnEnGY%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/78f0/9741facbbfac449480529254a7d6b864/APP_ICON_LARGE?versionId=SmRtiI4RxIn2M9w3OP6VXI_XkgXWxxS4&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=BbSoXJqyDdspMwV1H%2Buimi25lag%3D",
+          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
+          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
+          "examplePhrases": [
+            "Alexa, open Numbers Trivia",
+            "Give me a fact about today",
+            "Tell me a fact about a random number"
+          ],
+          "keywords": [
+            "numbersapi",
+            "numbers",
+            "kids",
+            "games",
+            "trivia",
+            "fact",
+            "smart",
+            "multimodal",
+            "visual"
+          ]
+        },
+        "en-GB": {
+          "name": "Numbers Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ff32/89c0c6e9ee234f26b4820e1b297441c3/APP_ICON?versionId=q8DYl1BBEWnOABaBo3_rjRnJREfJfSRS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=0RW7Sq0fG1MNfLBiV7jXZMjfMbg%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8ff1/6a3820b075da4524b8882e64c2672bad/APP_ICON_LARGE?versionId=Jvxi0G_MsreybWpIDQnVX9LsBPEcySQd&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1546273811&Signature=gNgE3VWVEckWZKPJUtslDBCyYB4%3D",
+          "summary": "A multimodal skill that educates children on the facts about the numbers, its importance in mathematics and significance of all the dates.",
+          "description": "Numbers Trivia uses the famous \"numbersapi\" API for getting facts related to numbers and dates and presents it to Alexa users in an elegant fashion. It is a multimodal skill and has both voice and visual aspect through which user can interact with their Alexa device using this skill.\n\nThis is a great skill that helps the young bright minds to learn numbers and stories about dates in a beautiful and interactive manner. Just give the skill a test run and you will fall in love with it.\n\nNumbersapi is an elegant API designed to bring meaning to your metrics and stories to your dates. This skill uses this free API to provide the users those great interesting facts about the numbers they use in their daily life.\n\nHere are some of the commands to help you get started:\n\n1) \"Alexa, open Numbers Trivia\"\n\"Welcome to the Numbers Trivia skill! I can give you many interesting facts about the numbers, their significance in the world of mathematics. I can also tell all the great historical facts any date is known for.\"\n\n2) \"Help!\"\n\"You can ask me questions like, 'Give me a fact about number 42'; 'What is significance of 42 in mathematics?'; 'What is special about 5th September?'\"\n\n3) \"What is special about 5th September?\"\n\"September 5th is the day in 1927 that the first Oswald the Lucky Rabbit cartoon, Trolley Troubles, produced by Walt Disney, is released by Universal Pictures.\"\n\n4) \"Give me a fact about number 42\"\n\"42 is the answer to the Ultimate Question of Life, the Universe, and Everything.\"\n\n5) \"Tell me a fact about any random number\"\n\"145 is the atomic number of Unquadpentium.\"\n\n6) \"What is the significance of 100 in mathematics?\"\n\"100 is the smallest number whose common logarithm is a prime number.\"\n\n7) \"Tell me the importance of today\"\n\"January 1st is the day in 1860 that First Polish stamp is issued.\"",
+          "examplePhrases": [
+            "Alexa, open Numbers Trivia",
+            "Give me a fact about today",
+            "Tell me a fact about a random number"
+          ],
+          "keywords": [
+            "numbersapi",
+            "numbers",
+            "kids",
+            "games",
+            "trivia",
+            "fact",
+            "smart",
+            "multimodal",
+            "visual"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Kids skill must be enabled.",
+      "category": "CHILDRENS_EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
     }
   }
 }

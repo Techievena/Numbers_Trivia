@@ -105,6 +105,10 @@ class LaunchRequestHandler(AbstractRequestHandler):
                             "primaryText": {
                                 "type": "PlainText",
                                 "text": speech
+                            },
+                            "primaryTextsmall": {
+                                "type": "PlainText",
+                                "text": "Welcome to the Numbers Trivia skill!"
                             }
                         },
                         "logoUrl": "https://raw.githubusercontent.com/Techievena/Techievena.github.io/master/img/post_images/numbers_trivia_skill_logo.png",

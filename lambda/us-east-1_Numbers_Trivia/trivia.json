@@ -143,8 +143,7 @@
                             "scale": "best-fill",
                             "width": "100vw",
                             "height": "100vh",
-                            "position": "absolute",
-                            "scrim": true
+                            "position": "absolute"
                         },
                         {
                             "type": "AlexaHeader",
@@ -153,11 +152,7 @@
                         },
                         {
                             "type": "Container",
-                            "width": "100vw",
-                            "height": "100vh",
-                            "paddingLeft": "@marginLeft",
-                            "paddingRight": "@marginRight",
-                            "paddingBottom": 200,
+                            "grow": 1,
                             "alignItems": "center",
                             "justifyContent": "center",
                             "items": [
@@ -165,8 +160,8 @@
                                     "type": "Image",
                                     "source": "${image}",
                                     "scale": "best-fit",
-                                    "width": "100vw",
-                                    "height": "100vh",
+                                    "width": "60vw",
+                                    "height": "60vh",
                                     "align": "center"
                                 }
                             ]
@@ -228,10 +223,12 @@
                     "when": "${viewport.shape == 'round'}",
                     "type": "Container",
                     "direction": "column",
-                    "paddingLeft": 50,
-                    "paddingRight": 30,
+                    "alignItems": "center",
+                    "justifyContent": "center",
                     "width": "100vw",
                     "height": "100vh",
+                    "paddingLeft": "70dp",
+                    "paddingRight": "70dp",
                     "items": [
                         {
                             "type": "Image",
@@ -248,14 +245,17 @@
                         },
                         {
                             "type": "ScrollView",
+                            "width": "70vw",
+                            "height": "70vh",
                             "item": [
                                 {
                                     "type": "Text",
                                     "id": "karaokeComponentId",
                                     "text": "${triviaText}",
                                     "speech": "${triviaSpeech}",
-                                    "size": "@textSizeBody",
-                                    "style": "textStyleBody"
+                                    "size": "@textStylePrimary",
+                                    "style": "textStylePrimary",
+                                    "textAlign": "center"
                                 }
                             ]
                         }
